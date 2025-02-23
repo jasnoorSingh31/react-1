@@ -127,6 +127,7 @@ header {
   flex-direction: column;
   text-align: center;
   max-width: 50%;
+  margin: 20px;
 }
 .flavours .head{
 font-size: 29px;
@@ -153,4 +154,60 @@ font-weight: 400;
 font-family: "Raleway";
 width: 558px;
 height: 228px;
+text-align: justify;
+}
+
+                                           /* NEW */
+.new{
+  opacity: 0.800;
+width: 1440px;
+height: 375px;
+background-color: #ffffff;
+display: flex;
+flex-wrap: wrap;
+}
+.new .column1 .circle1{
+  width: 31px;
+height: 31px;
+border-radius: 15px;
+background-color: #2a3b40;
+}
+
+.new .column2 .circle1{
+  width: 31px;
+  height: 31px;
+  border-radius: 15px;
+  background-color: #2a3b40;
+}
+
+.new .column2 .circle2{
+  width: 31px;
+  height: 31px;
+  border-radius: 15px;
+  background-color: #2a3b40;
+}
+
+.new .column3 .circle1{
+  display: inline-block;
+
+  width: 31px;
+  height: 31px;
+  border-radius: 15px;
+  background-color: #2a3b40;
+}
+
+.new .column3 .circle2{
+  display: inline-block;
+  width: 31px;
+  height: 31px;
+  border-radius: 15px;
+  background-color: #2a3b40;
+}
+
+.new .column3 .circle3{
+  display: inline-block;
+  width: 31px;
+  height: 31px;
+  border-radius: 15px;
+  background-color: #2a3b40;
 }
